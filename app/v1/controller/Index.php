@@ -12,6 +12,7 @@ class Index extends BaseController
 
 
     /**
+     *
      * @param $name
      * @return string
      */
