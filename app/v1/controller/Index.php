@@ -10,6 +10,11 @@ class Index extends BaseController
         echo "index";
     }
 
+
+    /**
+     * @param $name
+     * @return string
+     */
     public function hello($name = 'ThinkPHP6'): string {
         return 'hello,' . $name;
     }
